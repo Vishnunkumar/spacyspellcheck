@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.MD", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 requirements = [            
@@ -9,7 +9,7 @@ requirements = [
 
 setuptools.setup(
     name="spacyspellcheck",
-    version="0.0.2",
+    version="0.0.3",
     author="Vishnu Nandakumar",
     author_email="nkumarvishnu25@gmail.com",
     description="spell check using spacy vocab and in built levenshtein distance",
