@@ -28,7 +28,7 @@ class SpellCorrector:
         
         return candidates_list
     
-    def get_possible_misspelled(self):
+    def get_possible_misspelt(self):
         
         """
         Gives the most possible words that could be misspelt
