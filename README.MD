@@ -1,6 +1,6 @@
 # spacyspellcheck
 
-Spell check using spacy vocab and in built levenshtein distance.
+Spell check using spacy vocab and in-built Levenshtein distance.
 
 ```bash
 pip install -U spacyspellcheck
