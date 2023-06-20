@@ -9,7 +9,8 @@ pip install -U spacyspellcheck
 ## Implementation
 
 ```python
-spacyspell = SpellCorrector('word')
-spacyspell.get_candidates(3) # get top three candidates
-spacyspell.get_best() # gets the top corrected word
+from spacyspellcheck import spellcheck
+
+spacyspell = spellcheck.SpellCorrector("Gret work taks more time")
+spacyspell.get_possible_misspelt()
 ```
